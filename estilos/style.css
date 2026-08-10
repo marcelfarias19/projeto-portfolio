@@ -28,7 +28,7 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
-  transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5 s;
 }
 
 body.escuro {
@@ -89,7 +89,7 @@ section#ficha {
 
 section#ficha  img.foto {
   width: 200px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
